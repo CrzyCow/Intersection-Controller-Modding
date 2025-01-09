@@ -1,0 +1,110 @@
+version: 2.10.0
+apkFileName: lanes3.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 19
+  targetSdkVersion: 34
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 152
+  versionName: 1.21.4
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  DebugProbesKt.bin: 8
+  androidsupportmultidexversion.txt: 8
+  datacert.p12: 8
+  firebase-analytics.properties: 8
+  firebase-annotations.properties: 8
+  firebase-components.properties: 8
+  firebase-core.properties: 8
+  firebase-datatransport.properties: 8
+  firebase-encoders-json.properties: 8
+  firebase-encoders-proto.properties: 8
+  firebase-encoders.properties: 8
+  firebase-iid-interop.properties: 8
+  firebase-installations-interop.properties: 8
+  firebase-measurement-connector.properties: 8
+  messaging_event.proto: 8
+  messaging_event_extension.proto: 8
+  play-services-ads-base.properties: 8
+  play-services-ads-identifier.properties: 8
+  play-services-ads-lite.properties: 8
+  play-services-ads.properties: 8
+  play-services-appset.properties: 8
+  play-services-auth-api-phone.properties: 8
+  play-services-auth-base.properties: 8
+  play-services-auth.properties: 8
+  play-services-base.properties: 8
+  play-services-basement.properties: 8
+  play-services-cloud-messaging.properties: 8
+  play-services-fido.properties: 8
+  play-services-location.properties: 8
+  play-services-measurement-api.properties: 8
+  play-services-measurement-base.properties: 8
+  play-services-measurement-impl.properties: 8
+  play-services-measurement-sdk-api.properties: 8
+  play-services-measurement-sdk.properties: 8
+  play-services-measurement.properties: 8
+  play-services-stats.properties: 8
+  play-services-tasks.properties: 8
+  servercert.p12: 8
+  strings.properties: 8
+  strings_cs.properties: 8
+  strings_de.properties: 8
+  strings_el.properties: 8
+  strings_en.properties: 8
+  strings_es.properties: 8
+  strings_et.properties: 8
+  strings_fi.properties: 8
+  strings_fr.properties: 8
+  strings_he2.properties: 8
+  strings_hu.properties: 8
+  strings_id.properties: 8
+  strings_in.properties: 8
+  strings_it.properties: 8
+  strings_ja.properties: 8
+  strings_ko.properties: 8
+  strings_lt.properties: 8
+  strings_nl.properties: 8
+  strings_pl.properties: 8
+  strings_pt-br.properties: 8
+  strings_pt.properties: 8
+  strings_ro.properties: 8
+  strings_ru.properties: 8
+  strings_sk.properties: 8
+  strings_sr.properties: 8
+  strings_sv.properties: 8
+  strings_tl.properties: 8
+  strings_tr.properties: 8
+  strings_uk.properties: 8
+  strings_zh.properties: 8
+  transport-api.properties: 8
+  transport-backend-cct.properties: 8
+  transport-runtime.properties: 8
+  user-messaging-platform.properties: 8
+  com/badlogic/gdx.gwt.xml: 8
+  com/badlogic/gdx/graphics/g3d/particles/particles.fragment.glsl: 8
+  com/badlogic/gdx/graphics/g3d/particles/particles.vertex.glsl: 8
+  com/badlogic/gdx/graphics/g3d/shaders/default.fragment.glsl: 8
+  com/badlogic/gdx/graphics/g3d/shaders/default.vertex.glsl: 8
+  com/badlogic/gdx/graphics/g3d/shaders/depth.fragment.glsl: 8
+  com/badlogic/gdx/graphics/g3d/shaders/depth.vertex.glsl: 8
+  com/badlogic/gdx/physics/box2d.gwt.xml: 8
+  com/badlogic/gdx/utils/JsonReader.rl: 8
+  com/badlogic/gdx/utils/XmlReader.rl: 8
+  com/badlogic/gdx/utils/arial-15.fnt: 8
+  com/badlogic/gdx/utils/arial-15.png: 0
+doNotCompress:
+- resources.arsc
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- png
+- ogg

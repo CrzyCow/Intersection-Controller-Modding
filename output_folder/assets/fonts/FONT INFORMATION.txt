@@ -1,0 +1,14 @@
+﻿□
+
+□ΕΚΌΤEțȚșȘD̦d̦
+
+א‎	ב‎	ג‎	ד‎	ה‎	ו‎	ז‎	ח‎	ט‎	י‎	כ‎	ך‎	ל‎	מ‎	נ‎	ס‎	ע‎	פ‎	צ‎	ק‎	ר‎	ש‎	ת‎	ם‎	ן‎	ף‎	ץ‎
+
+europe:
+extended calibri light size 30 gamma 1.8
+
+japan + china:
+simhei size 20 java 
+
+korea:
+code2000 size 24 java 

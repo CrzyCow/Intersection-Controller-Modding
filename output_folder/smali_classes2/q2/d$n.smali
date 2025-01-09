@@ -1,0 +1,260 @@
+.class Lq2/d$n;
+.super Lw2/f;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lq2/d;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic d:Lq2/d;
+
+
+# direct methods
+.method constructor <init>(Lq2/d;Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lq2/d$n;->d:Lq2/d;
+
+    .line 2
+    .line 3
+    invoke-direct {p0, p2}, Lw2/f;-><init>(Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method protected c(Ljava/util/List;)Ljava/util/List;
+    .locals 5
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    const/4 v1, 0x0
+
+    .line 3
+    :goto_0
+    invoke-interface {p1}, Ljava/util/List;->size()I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v2
+
+    .line 7
+    const/4 v3, 0x1
+
+    .line 8
+    if-ge v1, v2, :cond_0
+
+    .line 9
+    .line 10
+    invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    .line 11
+    .line 12
+    .line 13
+    move-result-object v2
+
+    .line 14
+    check-cast v2, Lse/shadowtree/software/trafficbuilder/controlled/rest/model/BrowseMapData;
+
+    .line 15
+    .line 16
+    invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    .line 17
+    .line 18
+    .line 19
+    move-result-object v4
+
+    .line 20
+    check-cast v4, Lse/shadowtree/software/trafficbuilder/controlled/rest/model/BrowseMapData;
+
+    .line 21
+    .line 22
+    invoke-virtual {v4}, Lse/shadowtree/software/trafficbuilder/controlled/rest/model/BrowseMapData;->getFavorites()I
+
+    .line 23
+    .line 24
+    .line 25
+    move-result v4
+
+    .line 26
+    sub-int/2addr v4, v3
+
+    .line 27
+    invoke-virtual {v2, v4}, Lse/shadowtree/software/trafficbuilder/controlled/rest/model/BrowseMapData;->setFavorites(I)V
+
+    .line 28
+    .line 29
+    .line 30
+    add-int/lit8 v1, v1, 0x1
+
+    .line 31
+    .line 32
+    goto :goto_0
+
+    .line 33
+    :cond_0
+    invoke-super {p0, p1}, Lw2/f;->c(Ljava/util/List;)Ljava/util/List;
+
+    .line 34
+    .line 35
+    .line 36
+    move-result-object p1
+
+    .line 37
+    :goto_1
+    invoke-interface {p1}, Ljava/util/List;->size()I
+
+    .line 38
+    .line 39
+    .line 40
+    move-result v1
+
+    .line 41
+    if-ge v0, v1, :cond_1
+
+    .line 42
+    .line 43
+    invoke-interface {p1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    .line 44
+    .line 45
+    .line 46
+    move-result-object v1
+
+    .line 47
+    check-cast v1, Lf2/e;
+
+    .line 48
+    .line 49
+    invoke-virtual {v1, v3}, Lf2/e;->y(Z)V
+
+    .line 50
+    .line 51
+    .line 52
+    add-int/lit8 v0, v0, 0x1
+
+    .line 53
+    .line 54
+    goto :goto_1
+
+    .line 55
+    :cond_1
+    return-object p1
+.end method
+
+.method public d(Lretrofit/Callback;)V
+    .locals 8
+
+    .line 1
+    invoke-static {}, Lse/shadowtree/software/trafficbuilder/controlled/rest/ApiService;->getInstance()Lse/shadowtree/software/trafficbuilder/controlled/rest/ApiService;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    invoke-virtual {v0}, Lse/shadowtree/software/trafficbuilder/controlled/rest/ApiService;->getMapHandler()Lse/shadowtree/software/trafficbuilder/controlled/rest/MapHandler;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v1
+
+    .line 9
+    invoke-static {}, Lse/shadowtree/software/trafficbuilder/controlled/rest/ApiService;->getInstance()Lse/shadowtree/software/trafficbuilder/controlled/rest/ApiService;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v0
+
+    .line 13
+    invoke-virtual {v0}, Lse/shadowtree/software/trafficbuilder/controlled/rest/ApiService;->getAuthentication()Ljava/lang/String;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object v2
+
+    .line 17
+    invoke-static {}, Lse/shadowtree/software/trafficbuilder/b;->i()Lse/shadowtree/software/trafficbuilder/b;
+
+    .line 18
+    .line 19
+    .line 20
+    move-result-object v0
+
+    .line 21
+    invoke-virtual {v0}, Lse/shadowtree/software/trafficbuilder/b;->f()I
+
+    .line 22
+    .line 23
+    .line 24
+    move-result v3
+
+    .line 25
+    iget-object v0, p0, Lq2/d$n;->d:Lq2/d;
+
+    .line 26
+    .line 27
+    invoke-static {v0}, Lq2/d;->c0(Lq2/d;)Lu2/b;
+
+    .line 28
+    .line 29
+    .line 30
+    move-result-object v0
+
+    .line 31
+    invoke-virtual {v0}, Lu2/b;->f()I
+
+    .line 32
+    .line 33
+    .line 34
+    move-result v4
+
+    .line 35
+    iget-object v0, p0, Lq2/d$n;->d:Lq2/d;
+
+    .line 36
+    .line 37
+    invoke-static {v0}, Lq2/d;->e0(Lq2/d;)I
+
+    .line 38
+    .line 39
+    .line 40
+    move-result v6
+
+    .line 41
+    const/16 v5, 0xc
+
+    .line 42
+    .line 43
+    move-object v7, p1
+
+    .line 44
+    invoke-interface/range {v1 .. v7}, Lse/shadowtree/software/trafficbuilder/controlled/rest/MapHandler;->getFavorites(Ljava/lang/String;IIIILretrofit/Callback;)V
+
+    .line 45
+    .line 46
+    .line 47
+    return-void
+.end method
