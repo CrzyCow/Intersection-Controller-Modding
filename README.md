@@ -9,5 +9,5 @@ For more details, visit: [https://creativecommons.org/licenses/by/3.0/](https://
 
 ### Credits:
 - Original game by ShadowTree.
-- Modified by Redmooshroom.
+- Modified by CrzyCow.
 
